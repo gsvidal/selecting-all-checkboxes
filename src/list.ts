@@ -1,3 +1,8 @@
+export type ListType = ItemType[];
+export type ItemType = {
+  id: number
+  name: string
+}
 export const list = [
   {
     id: 0,
